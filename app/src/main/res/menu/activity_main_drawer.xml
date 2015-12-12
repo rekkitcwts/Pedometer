@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_calibrate"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/nav_calibrate" />
+        <item
+            android:id="@+id/nav_setweight"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/nav_setweight" />
+        <item
+            android:id="@+id/nav_achievements"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/nav_achievements" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/nav_settings" />
+    </group>
+
+</menu>
